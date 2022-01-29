@@ -3,8 +3,8 @@
 # From your Steamguard file
 
 from steampy.guard import generate_confirmation_key, generate_one_time_code
-shared_secret = ''
-identity_secret = ''
+shared_secret = 'jSFM+54e0U6wmyDYGTMFQyu4LCs='
+identity_secret = 'LgW1o15aeJmwnRO8C/pwgO75/4Q='
 
 one_time_authentication_code = generate_one_time_code(shared_secret)
 print(one_time_authentication_code)
